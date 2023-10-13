@@ -19,7 +19,7 @@
                 <a href="./index.html" class="logo link">Web<span class="studio-header">Studio</span></a>
                 <ul class="list-menu">
                     <li>
-                        <a href="./index.html" class="menu link">Studio</a>
+                        <a href="./index.html" class="menu link is-active">Studio</a>
                     </li>
                     <li>
                         <a href="./portfolio.html" class=" menu link">Portfolio</a>
@@ -46,7 +46,10 @@
     <section class="main-view">
         <div class="container">
             <h1 class="heading-first">Effective Solutions<br/>for Your Business</h1>
-            <button type="button" class="button-main">Order Service</button>
+            <button type="button" class="button-main" data-modal-open>Order Service</button>
+            <div class="modal is-hidden" data-modal>
+                <button data-modal-close>X</button>
+            </div>
         </div>
     </section>
     
@@ -307,6 +310,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
