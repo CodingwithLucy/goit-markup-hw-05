@@ -47,9 +47,6 @@
         <div class="container">
             <h1 class="heading-first">Effective Solutions<br/>for Your Business</h1>
             <button type="button" class="button-main" data-modal-open>Order Service</button>
-            <div class="modal is-hidden" data-modal>
-                <button data-modal-close>X</button>
-            </div>
         </div>
     </section>
     
@@ -311,6 +308,15 @@
         </div>
     </footer>
 
+    <div class="modal is-hidden" data-modal>
+        <div class="modal-window">
+         <button data-modal-close class="modal-button">
+            <svg width="8" height="8" class="modal-cross">
+                <use href="./images/xssym.svg#icon-cross"></use>
+            </svg>
+         </button>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 
