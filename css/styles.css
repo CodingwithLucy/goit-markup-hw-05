@@ -74,12 +74,21 @@ body {
     color: var(--OCEAN);
 }
 
+.menu {
+    color: var(--NAVY-BLUE);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+
 .is-active {
     color: var(--OCEAN);
     position: relative;
 }
 
-.is-active:hover::after {
+.is-active::after {
     content: '';
     position: absolute;
     left: 0;
@@ -89,7 +98,7 @@ body {
     border-radius: 2px;
     display: block;
     width: 100%;
-    
+
 }
 
 .logo {
@@ -122,15 +131,6 @@ ul {
 
 .list-item-adv {
     width: calc((100% - 72px) / 4);
-}
-
-.menu {
-    color: var(--NAVY-BLUE);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
 }
 
 .address {
